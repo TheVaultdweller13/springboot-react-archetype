@@ -1,0 +1,22 @@
+# Java
+target/
+*.jar
+*.war
+
+# Node
+node/
+node_modules/
+build/
+package-lock.json
+
+#IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# Maven
+log/
+*.iml
+mvnw
+mvnw.cmd
