@@ -20,3 +20,6 @@ log/
 *.iml
 mvnw
 mvnw.cmd
+
+# statics
+resource/static
