@@ -22,4 +22,4 @@ mvnw
 mvnw.cmd
 
 # statics
-resource/static
+**/resources/static
