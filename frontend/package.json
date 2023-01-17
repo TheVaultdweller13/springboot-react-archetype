@@ -17,12 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "move-build": "mkdir -p ../backend/src/main/resources/static && mv build/* ../backend/src/main/resources/static",
-    "clean-old-build": "rm -rf ../backend/src/main/resources/static/* ",
-    "clean-new-build": "rm -rf build",
-    "postbuild": "npm run clean-old-build && npm run move-build && npm run clean-new-build"
+    "serve-static": "bash ../scripts/serve-static.sh",
+    "postbuild": "npm run serve-static"
   },
-  "proxy": "http://localhost:8080/",
   "eslintConfig": {
     "extends": [
       "react-app",

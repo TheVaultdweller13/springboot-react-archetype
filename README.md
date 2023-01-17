@@ -2,7 +2,7 @@
 
 An archetype with Spring Boot + React
 
-### Requeriments:
+### Requirements:
 - Node (v18+)
 - npm
 - Java 19
@@ -12,3 +12,7 @@ An archetype with Spring Boot + React
 ```
 > mvn clean install
 ```
+
+### Application UP 
+The application at http://localhost:8080. The "hello world!" message is a endpoint call to backend.
+![](./docs/images/front.png)
