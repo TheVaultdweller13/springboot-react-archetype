@@ -12,5 +12,9 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: 19
+        java-package: jdk
+        architecture: x64
+        check-latest: false
+
     - name: Build with Maven
       run: mvn clean install
