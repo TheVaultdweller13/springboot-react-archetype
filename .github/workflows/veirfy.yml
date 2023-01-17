@@ -13,6 +13,7 @@ jobs:
       with:
         java-version: 19
         java-package: jdk
+        distribution: openjdk
         architecture: x64
         check-latest: false
 
