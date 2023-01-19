@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>SpringBoot + React - Archetype</name>
     <description>Archetype for Spring Boot + React</description>
@@ -24,12 +24,12 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>backend</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>frontend</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>1.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
