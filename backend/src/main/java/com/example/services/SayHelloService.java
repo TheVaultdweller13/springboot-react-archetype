@@ -1,10 +1,12 @@
 package com.example.services;
 
+import com.example.model.HelloWorld;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SayHelloService {
     public String print() {
-        return "Hello world!";
+        var helloWorld = new HelloWorld();
+        return helloWorld.getHello();
     }
 }

@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
