@@ -5,10 +5,12 @@ import axios from "axios";
 
 function App() {
 
+  const API_URL = process.env.REACT_APP_API_URL;
+
   const [helloMessage, setHelloMessage] = useState("Loading...");
 
   useEffect(() => {
-    axios.get('/hello')
+    axios.get(`${API_URL}/hello`)
       .then(response => setHelloMessage(response.data))
       .catch(error => setHelloMessage("Error: " + error));
   }, []);
