@@ -1,6 +1,6 @@
-package com.example.controllers;
+package maven.archetype.controllers;
 
-import com.example.services.SayHelloService;
+import maven.archetype.services.SayHelloService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

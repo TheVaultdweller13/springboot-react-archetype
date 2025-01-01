@@ -1,4 +1,4 @@
-package com.example.model;
+package maven.archetype.model;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.example;
+package maven.archetype;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,6 +1,6 @@
-package com.example.services;
+package maven.archetype.services;
 
-import com.example.model.HelloWorld;
+import maven.archetype.model.HelloWorld;
 import org.springframework.stereotype.Service;
 
 @Service
